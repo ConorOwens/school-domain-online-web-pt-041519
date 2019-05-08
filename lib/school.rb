@@ -8,11 +8,11 @@ class School
   end
   
   def add_student(child, grade)
-    if @roster[grade]
-      @roster[grade] << child
+    if roster[grade]
+      roster[grade] << child
     else
-      @roster[grade]
-      @roster[grade] << child
+      roster[grade]
+      roster[grade] << child
     end
   end
   
