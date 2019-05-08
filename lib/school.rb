@@ -9,12 +9,12 @@ class School
   
   attr_reader :name
   
-  def add_student(name, grade)
+  def add_student(child, grade)
     if @roster[grade]
-      @roster[grade] << name
+      @roster[grade] << child
     else
       @roster[grade]
-      @roster[grade] << name
+      @roster[grade] << child
     end
   end
   
