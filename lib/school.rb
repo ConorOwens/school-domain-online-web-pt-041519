@@ -20,6 +20,8 @@ class School
     roster[grade]
   end
   
-  def sort()
+  def sort
+    roster.map do |grade, child|
+      
   
 end
